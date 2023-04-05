@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import { getWeatherByCity, getWeatherByCoordinates } from '../../api-calls/weather';
 import { getForecastByCity, getForecastByCoordinates } from '../../api-calls/forecasts';
