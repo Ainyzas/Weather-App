@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="weatherContainer">
+      Hello
       <CityForm setWeather={setWeather} setForecast={setForecast} setLastUpdated={setLastUpdated} />
       <TemperatureDisplay temp={weather.main} date={lastUpdated} city={weather.name} image={weather.weather} />
       <ForecastDisplay forecast={forecast} />
