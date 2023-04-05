@@ -1,0 +1,36 @@
+.searchBar {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.searchBar input,
+.searchButton,
+.locationButton {
+  padding: 0.5rem;
+  background-color: #1e2e5c;
+  color: gainsboro;
+  border: 1px solid #172447a2;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.searchBar input {
+  width: 45%;
+  padding-left: 0.75rem;
+}
+
+.searchButton {
+  width: 15%;
+}
+
+.locationButton {
+  width: 25%;
+}
+
+.searchButton:hover,
+.locationButton:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.airDisplay {
+  margin-top: 1rem;
+  background-color: #243563;
+  border: 1px solid #0d1324;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 12px;
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.gridWrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gridWrap div {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.gridWrap h4 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gridWrap h3 {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.temperature::before,
+.wind::before,
+.sunrise::before,
+.humidity::before,
+.weather::before,
+.sunset::before {
+  font: var(--fa-font-solid);
+  font-size: 22px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.temperature::before {
+  content: '\f2c7';
+  margin-left: 0.25rem;
+}
+
+.wind::before {
+  content: '\f72e';
+}
+
+.sunrise::before {
+  content: '\f185';
+}
+
+.humidity::before {
+  content: '\f73d';
+}
+
+.weather::before {
+  content: '\f743';
+}
+
+.sunset::before {
+  content: '\f186';
+}

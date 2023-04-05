@@ -1,0 +1,12 @@
+.temperatureDisplay {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoFlex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
