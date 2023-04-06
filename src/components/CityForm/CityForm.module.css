@@ -34,3 +34,23 @@
 .locationButton:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .searchBar {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .searchBar input,
+  .searchButton,
+  .locationButton {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .searchBar input {
+    grid-column: 1 / 3;
+  }
+}
